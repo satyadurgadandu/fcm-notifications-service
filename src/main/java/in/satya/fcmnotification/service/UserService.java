@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor
 public class UserService {
-	 private final UserRepository userRepository = null;
+	 private final UserRepository userRepository;
 
 	    // Create a new user
 	    public User createUser(User user) {
